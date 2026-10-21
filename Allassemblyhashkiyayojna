@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="mr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>नागपूर विधानसभा — एकत्रित माहिती</title>
+<style>
+:root{--navy:#15365b;--blue:#1e5aa8;--orange:#e97825;--bg:#f3f6fb;--ink:#172b4d;--muted:#64748b;--line:#dce5f0;--white:#fff;--green:#16805d}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,"Noto Sans Devanagari",sans-serif;background:var(--bg);color:var(--ink)}
+header{background:linear-gradient(120deg,#12345a,#1f5fa8);color:#fff;padding:26px 20px 22px}
+.wrap{max-width:1180px;margin:auto}.topline{display:flex;gap:18px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.brand h1{margin:0;font-size:clamp(23px,3vw,34px)}.brand p{margin:8px 0 0;color:#dbeafe}
+.pill{border:1px solid #ffffff70;border-radius:999px;padding:8px 13px;font-size:13px}
+nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px}
+nav button{background:#ffffff18;color:#fff;border:1px solid #ffffff38;border-radius:10px;padding:10px 14px;cursor:pointer;font-weight:600}
+nav button.active,nav button:hover{background:#fff;color:var(--navy)}
+main{max-width:1180px;margin:22px auto;padding:0 16px 40px}
+.notice{border:1px solid #f1c27d;background:#fff8e8;border-radius:12px;padding:12px 14px;margin-bottom:18px;color:#744210;font-size:14px;line-height:1.6}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-bottom:20px}
+.stat,.panel{background:var(--white);border:1px solid var(--line);border-radius:16px;box-shadow:0 4px 16px #18365b08}
+.stat{padding:18px}.stat .label{font-size:13px;color:var(--muted)}.stat strong{display:block;font-size:29px;margin:7px 0;color:var(--navy)}.stat small{color:var(--muted)}
+.panel{padding:20px;margin-bottom:18px}.panel h2{font-size:20px;margin:0 0 15px}.panel h3{font-size:16px;margin:0 0 8px}
+.photo-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px}
+.photo{min-height:110px;border:1px dashed #9eb2cb;border-radius:12px;background:#f8fbff;display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center;padding:10px;color:#486581;font-size:13px;gap:7px}
+.photo .symbol{font-size:27px}.photo input{max-width:100%;font-size:11px}
+.filters{display:grid;grid-template-columns:1.1fr 1.6fr auto;gap:10px;margin-bottom:14px}
+input,select,textarea{width:100%;border:1px solid #cbd5e1;border-radius:10px;padding:11px 12px;font:inherit;background:#fff;color:var(--ink)}
+button.primary,.btn{background:var(--blue);color:white;border:0;border-radius:10px;padding:11px 15px;cursor:pointer;font-weight:700}
+button.secondary{background:#eaf1fb;color:var(--navy);border:1px solid #cbdcf2;border-radius:10px;padding:10px 13px;cursor:pointer}
+.table-wrap{overflow:auto}table{width:100%;border-collapse:collapse;min-width:720px}th,td{text-align:left;padding:12px;border-bottom:1px solid var(--line);vertical-align:top;font-size:14px}th{background:#f4f7fb;color:#334e68}td small{color:var(--muted)}
+.badge{display:inline-block;background:#e7f5ee;color:#126345;border-radius:999px;padding:4px 8px;font-size:12px}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.person{border:1px solid var(--line);border-radius:12px;padding:14px;background:#fff}.person .role{color:var(--blue);font-size:12px;font-weight:bold;margin-bottom:6px}.person h3{margin:0 0 7px}.person p{margin:5px 0;color:#52657c;font-size:13px;line-height:1.5}
+.formgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.field label{display:block;font-size:13px;font-weight:700;margin-bottom:6px}.field.full{grid-column:1/-1}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}.muted{color:var(--muted);font-size:13px;line-height:1.6}.hidden{display:none!important}
+footer{text-align:center;padding:22px;color:var(--muted);font-size:12px}
+@media(max-width:800px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.photo-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.filters{grid-template-columns:1fr}.formgrid{grid-template-columns:1fr}}
+@media(max-width:480px){.stats{gap:8px}.stat{padding:13px}.stat strong{font-size:24px}.panel{padding:14px}.cards{grid-template-columns:1fr}.photo{min-height:95px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="topline">
+      <div class="brand">
+        <h1>नागपूर विधानसभा — एकत्रित माहिती</h1>
+        <p>जनसेवा • शासकीय योजना • फील्ड कामकाज व्यवस्थापन</p>
+      </div>
+      <div class="pill">समन्वयक • टीम लीडर • फेलो • अॅडमिन</div>
+    </div>
+    <nav aria-label="मुख्य मेनू">
+      <button class="active" data-tab="home">मुख्य डॅशबोर्ड</button>
+      <button data-tab="team">टीम व समन्वयक</button>
+      <button data-tab="fellows">फेलो यादी</button>
+      <button data-tab="entry">दैनिक नोंद</button>
+      <button data-tab="reports">रिपोर्ट</button>
+    </nav>
+  </div>
+</header>
+<main>
+  <div class="notice"><strong>महत्त्वाची सूचना:</strong> ही GitHub वर चालणारी HTML आवृत्ती आहे. या फाइलमध्ये सध्या नमुना/उपलब्ध माहिती आहे. सर्व फेलोंचा संपूर्ण डेटा, सुरक्षित लॉगिन आणि सर्व मोबाईलवरून एकाच डेटाबेसमध्ये नोंदी यासाठी स्वतंत्र ऑनलाइन डेटाबेस व सर्व्हर जोडणे आवश्यक आहे. या HTML मधील नोंदी फक्त याच ब्राउझरमध्ये स्थानिकरीत्या जतन होतात.</div>
+
+  <section id="home" class="tab">
+    <div class="stats">
+      <div class="stat"><span class="label">विधानसभा</span><strong>६</strong><small>नागपूर शहरातील विधानसभा</small></div>
+      <div class="stat"><span class="label">फेलो</span><strong>५९</strong><small>अंतिम यादी जोडायची</small></div>
+      <div class="stat"><span class="label">बूथ</span><strong>३८४</strong><small>दक्षिण-पश्चिम विधानसभा संदर्भ</small></div>
+      <div class="stat"><span class="label">दैनिक नोंदी</span><strong id="entryCount">०</strong><small>या ब्राउझरमध्ये जतन केलेल्या नोंदी</small></div>
+    </div>
+
+    <div class="panel">
+      <h2>फोटो गॅलरी — सहा फोटो एकाच ओळीत</h2>
+      <p class="muted">फोटोच्या चौकटीतून फोटो निवडा. संगणकावर सहा फोटो एकाच ओळीत; मोबाईलवर स्क्रीननुसार पुढील ओळीत दिसतील. फोटो अपलोड झाल्यावर ते या ब्राउझरमध्येच दिसतील; सर्वांना ऑनलाइन दाखवण्यासाठी फोटो होस्टिंग जोडावी लागेल.</p>
+      <div class="photo-grid" id="photoGrid"></div>
+    </div>
+    <div class="panel">
+      <h2>विधानसभा निवड</h2>
+      <div class="cards">
+        <div class="person"><div class="role">विधानसभा</div><h3>दक्षिण-पश्चिम नागपूर</h3><p>बूथ संदर्भ: ३८४</p></div>
+        <div class="person"><div class="role">विधानसभा</div><h3>दक्षिण नागपूर</h3><p>फेलो व बूथ माहिती जोडायची</p></div>
+        <div class="person"><div class="role">विधानसभा</div><h3>पूर्व नागपूर</h3><p>फेलो व बूथ माहिती जोडायची</p></div>
+        <div class="person"><div class="role">विधानसभा</div><h3>पश्चिम नागपूर</h3><p>फेलो व बूथ माहिती जोडायची</p></div>
+        <div class="person"><div class="role">विधानसभा</div><h3>मध्य नागपूर</h3><p>फेलो व बूथ माहिती जोडायची</p></div>
+        <div class="person"><div class="role">विधानसभा</div><h3>उत्तर नागपूर</h3><p>फेलो व बूथ माहिती जोडायची</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="team" class="tab hidden">
+    <div class="panel">
+      <h2>समन्वयक व टीम</h2>
+      <p class="muted">खालील नावे आधी दिलेल्या माहितीनुसार भरली आहेत. उर्वरित पदाधिकारी/टीम लीडरची नावे मिळाल्यावर जोडता येतील.</p>
+      <div class="cards">
+        <div class="person"><div class="role">विधानसभा समन्वयक</div><h3>अशांत कोकाटे</h3><p>दक्षिण-पश्चिम विधानसभा, नागपूर</p></div>
+        <div class="person"><div class="role">टीम लीडर</div><h3>भावेश कुमरे</h3><p>सुभाषनगर मंडळ • दक्षिण-पश्चिम विधानसभा</p></div>
+        <div class="person"><div class="role">टीम लीडर</div><h3>प्रज्वल वैरागडे</h3><p>नरेंद्र नगर मंडळ • दक्षिण-पश्चिम विधानसभा</p></div>
+        <div class="person"><div class="role">टीम लीडर</div><h3>प्रज्वल पंडित</h3><p>धंतोली मंडळ • दक्षिण-पश्चिम विधानसभा</p></div>
+        <div class="person"><div class="role">टीम लीडर</div><h3>मेहुल पराते</h3><p>त्रिमूर्ती नगर मंडळ • दक्षिण-पश्चिम विधानसभा</p></div>
+        <div class="person"><div class="role">बॅक ऑफिस</div><h3>रुतुजा वानखेडे</h3><p>नागपूर शहर व नागपूर ग्रामीणमधील सर्व विधानसभा</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="fellows" class="tab hidden">
+    <div class="panel">
+      <h2>फेलो माहिती व्यवस्थापन</h2>
+      <div class="filters">
+        <select id="assemblyFilter">
+          <option value="">सर्व विधानसभा</option><option>दक्षिण-पश्चिम नागपूर</option><option>दक्षिण नागपूर</option><option>पूर्व नागपूर</option><option>पश्चिम नागपूर</option><option>मध्य नागपूर</option><option>उत्तर नागपूर</option>
+        </select>
+        <input id="fellowSearch" placeholder="फेलोचे नाव, मोबाईल किंवा कौशल्य शोधा">
+        <button class="secondary" id="clearSearch">शोध साफ करा</button>
+      </div>
+      <div class="table-wrap"><table><thead><tr><th>नाव</th><th>मोबाईल</th><th>शिक्षण</th><th>कौशल्ये</th><th>विधानसभा</th></tr></thead><tbody id="fellowRows"></tbody></table></div>
+      <p class="muted">टीप: सध्या उपलब्ध असलेली नावेच समाविष्ट आहेत. उर्वरित ५९ फेलोंची संपूर्ण यादी मूळ माहिती/Excel मधून जोडावी.</p>
+    </div>
+  </section>
+
+  <section id="entry" class="tab hidden">
+    <div class="panel">
+      <h2>दैनिक फील्ड कामाची नोंद</h2>
+      <p class="muted">हा फॉर्म डेमो आहे. नोंद या ब्राउझरमध्ये जतन होईल; इतर फेलो किंवा अॅडमिनच्या डिव्हाइसवर आपोआप दिसणार नाही, जोपर्यंत ऑनलाइन डेटाबेस जोडलेला नाही.</p>
+      <form id="entryForm">
+        <div class="formgrid">
+          <div class="field"><label for="fName">फेलोचे नाव *</label><input id="fName" required placeholder="पूर्ण नाव"></div>
+          <div class="field"><label for="fPhone">मोबाईल क्रमांक</label><input id="fPhone" inputmode="numeric" placeholder="मोबाईल क्रमांक"></div>
+          <div class="field"><label for="fAssembly">विधानसभा *</label><select id="fAssembly" required><option value="">निवडा</option><option>दक्षिण-पश्चिम नागपूर</option><option>दक्षिण नागपूर</option><option>पूर्व नागपूर</option><option>पश्चिम नागपूर</option><option>मध्य नागपूर</option><option>उत्तर नागपूर</option></select></div>
+          <div class="field"><label for="fMandal">मंडळ / क्षेत्र</label><input id="fMandal" placeholder="मंडळ किंवा क्षेत्र"></div>
+          <div class="field"><label for="fDate">दिनांक *</label><input id="fDate" type="date" required></div>
+          <div class="field"><label for="fType">कामाचा प्रकार *</label><select id="fType" required><option value="">निवडा</option><option>शासकीय योजना</option><option>नागरिक भेट</option><option>शिबिर</option><option>बैठक</option><option>सर्वेक्षण</option><option>इतर</option></select></div>
+          <div class="field full"><label for="fDetails">कामाचा तपशील *</label><textarea id="fDetails" rows="4" required placeholder="आज केलेल्या कामाची माहिती लिहा"></textarea></div>
+          <div class="field full"><label for="fCount">लाभार्थी / नागरिक संख्या</label><input id="fCount" type="number" min="0" placeholder="उदा. २५"></div>
+        </div>
+        <div class="actions"><button class="primary" type="submit">नोंद जतन करा</button><button class="secondary" type="reset">फॉर्म साफ करा</button></div>
+      </form>
+    </div>
+  </section>
+
+  <section id="reports" class="tab hidden">
+    <div class="panel">
+      <h2>दैनिक नोंदी व रिपोर्ट</h2>
+      <p class="muted">या ब्राउझरमध्ये जतन केलेल्या नोंदी CSV फाइल म्हणून डाउनलोड करा. Excel मध्ये उघडता येईल.</p>
+      <div class="actions"><button class="primary" id="downloadCsv">Excel-सुसंगत CSV डाउनलोड</button><button class="secondary" id="deleteEntries">या ब्राउझरमधील नोंदी पुसा</button></div>
+      <div class="table-wrap" style="margin-top:16px"><table><thead><tr><th>दिनांक</th><th>फेलो</th><th>विधानसभा</th><th>कामाचा प्रकार</th><th>तपशील</th><th>संख्या</th></tr></thead><tbody id="entryRows"></tbody></table></div>
+    </div>
+  </section>
+</main>
+<footer>जनसेवा डॅशबोर्ड • मराठी इंटरफेस • GitHub Pages साठी HTML नमुना</footer>
+<script>
+const knownFellows = [
+ {name:"प्रविक नागदेविते",phone:"8788076424",education:"BSW, MSW, MSCIT",skills:"Basic Excel, Online Work, Data Entry, AI Work, Camp Expert, Team Handling",assembly:""},
+ {name:"दीक्षा भुजाडे",phone:"8080648478",education:"माहिती जोडायची",skills:"माहिती जोडायची",assembly:"दक्षिण नागपूर"}
+];
+const assemblies=["दक्षिण-पश्चिम नागपूर","दक्षिण नागपूर","पूर्व नागपूर","पश्चिम नागपूर","मध्य नागपूर","उत्तर नागपूर"];
+const $=id=>document.getElementById(id);
+function safe(v){return String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+function getEntries(){try{return JSON.parse(localStorage.getItem("jansevaEntries")||"[]")}catch{return []}}
+function saveEntries(x){localStorage.setItem("jansevaEntries",JSON.stringify(x))}
+function renderFellows(){
+ const q=$("fellowSearch").value.trim().toLowerCase(), a=$("assemblyFilter").value;
+ const list=knownFellows.filter(f=>(!a||f.assembly===a||!f.assembly)&&(f.name+" "+f.phone+" "+f.education+" "+f.skills+" "+f.assembly).toLowerCase().includes(q));
+ $("fellowRows").innerHTML=list.length?list.map(f=>`<tr><td><strong>${safe(f.name)}</strong></td><td>${safe(f.phone)}</td><td>${safe(f.education)}</td><td>${safe(f.skills)}</td><td>${safe(f.assembly||"अद्याप निश्चित नाही")}</td></tr>`).join(""):`<tr><td colspan="5">जुळणारी नोंद सापडली नाही.</td></tr>`;
+}
+function renderEntries(){
+ const es=getEntries();$("entryCount").textContent=es.length.toLocaleString("mr-IN");
+ $("entryRows").innerHTML=es.length?es.slice().reverse().map(e=>`<tr><td>${safe(e.date)}</td><td>${safe(e.name)}<br><small>${safe(e.phone)}</small></td><td>${safe(e.assembly)}</td><td>${safe(e.type)}</td><td>${safe(e.details)}</td><td>${safe(e.count||"—")}</td></tr>`).join(""):`<tr><td colspan="6">अद्याप कोणतीही नोंद नाही.</td></tr>`;
+}
+function renderPhotos(){
+ $("photoGrid").innerHTML=Array.from({length:6},(_,i)=>`<label class="photo"><span class="symbol">▧</span><strong>फोटो ${i+1}</strong><span>फोटो निवडा</span><input aria-label="फोटो ${i+1}" type="file" accept="image/*" data-photo="${i}"></label>`).join("");
+ $("photoGrid").querySelectorAll("input").forEach(inp=>inp.addEventListener("change",e=>{
+   const file=e.target.files[0];if(!file)return;
+   const reader=new FileReader();reader.onload=()=>{const label=e.target.closest(".photo");label.style.backgroundImage=`url("${reader.result}")`;label.style.backgroundSize="cover";label.style.backgroundPosition="center";label.style.color="#fff";label.querySelector(".symbol").textContent="✓";label.querySelector("strong").textContent=file.name;label.querySelector("span:not(.symbol)").textContent="निवडले";};reader.readAsDataURL(file);
+ }));
+}
+document.querySelectorAll("nav button").forEach(btn=>btn.addEventListener("click",()=>{
+ document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("active",b===btn));
+ document.querySelectorAll(".tab").forEach(s=>s.classList.toggle("hidden",s.id!==btn.dataset.tab));
+ if(btn.dataset.tab==="reports")renderEntries();
+}));
+$("fellowSearch").addEventListener("input",renderFellows);$("assemblyFilter").addEventListener("change",renderFellows);
+$("clearSearch").addEventListener("click",()=>{$("fellowSearch").value="";$("assemblyFilter").value="";renderFellows()});
+$("fDate").value=new Date().toISOString().slice(0,10);
+$("entryForm").addEventListener("submit",e=>{
+ e.preventDefault();const entries=getEntries();entries.push({name:$("fName").value.trim(),phone:$("fPhone").value.trim(),assembly:$("fAssembly").value,mandal:$("fMandal").value.trim(),date:$("fDate").value,type:$("fType").value,details:$("fDetails").value.trim(),count:$("fCount").value});
+ saveEntries(entries);renderEntries();alert("नोंद या ब्राउझरमध्ये जतन झाली. इतर डिव्हाइसवर दिसण्यासाठी ऑनलाइन डेटाबेस जोडणे आवश्यक आहे.");e.target.reset();$("fDate").value=new Date().toISOString().slice(0,10);
+});
+$("downloadCsv").addEventListener("click",()=>{
+ const rows=[["दिनांक","फेलोचे नाव","मोबाईल","विधानसभा","मंडळ","कामाचा प्रकार","कामाचा तपशील","लाभार्थी संख्या"],...getEntries().map(e=>[e.date,e.name,e.phone,e.assembly,e.mandal,e.type,e.details,e.count])];
+ const csv="\uFEFF"+rows.map(r=>r.map(v=>'"'+String(v??"").replace(/"/g,'""')+'"').join(",")).join("\r\n");
+ const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([csv],{type:"text/csv;charset=utf-8;"}));a.download="janseva-dainik-report.csv";a.click();URL.revokeObjectURL(a.href);
+});
+$("deleteEntries").addEventListener("click",()=>{if(confirm("या ब्राउझरमधील सर्व दैनिक नोंदी पुसायच्या का?")){saveEntries([]);renderEntries()}});
+renderPhotos();renderFellows();renderEntries();
+</script>
+</body>
+</html>
